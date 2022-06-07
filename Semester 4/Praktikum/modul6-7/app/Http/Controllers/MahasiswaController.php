@@ -19,7 +19,7 @@ class MahasiswaController extends Controller
     public function index()
     {
         $mahasiswa = Mahasiswa::all();
-        return View('tampilan.index', compact('mahasiswa'), ['title' => 'Home | Modul5 Laravel']);
+        return View('tampilan.index', compact('mahasiswa'), ['title' => 'Home | Modul6-7 Laravel']);
     }
 
     /**
@@ -29,7 +29,7 @@ class MahasiswaController extends Controller
      */
     public function create()
     {
-        return View('tampilan.create', ['title' => 'Tambah Data | Modul5 Laravel']);
+        return View('tampilan.create', ['title' => 'Tambah Data | Modul6-7 Laravel']);
     }
 
     /**

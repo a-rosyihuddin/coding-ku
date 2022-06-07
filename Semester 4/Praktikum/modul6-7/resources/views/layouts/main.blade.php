@@ -24,11 +24,11 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title==="Home | Modul5 Laravel")? 'active' : '' }}" href="/">Data
+                        <a class="nav-link {{ ($title==="Home | Modul6-7 Laravel")? 'active' : '' }}" href="/">Data
                             Mahasiswa <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title==="Tambah Data | Modul5 Laravel")? 'active' : '' }}"
+                        <a class="nav-link {{ ($title==="Tambah Data | Modul6-7 Laravel")? 'active' : '' }}"
                             href="/create">Tambah
                             Data</a>
                     </li>

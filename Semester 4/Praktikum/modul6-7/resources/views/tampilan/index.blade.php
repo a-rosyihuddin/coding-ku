@@ -24,7 +24,7 @@
         <tbody>
             @php $no = 1 @endphp
             @foreach ($mahasiswa as $row )
-            <tr>
+            <tr>    
                 <th scope="row">{{ $no++ }}</th>
                 <td>{{ $row->nrp }}</td>
                 <td>{{ $row->nama }}</td>
